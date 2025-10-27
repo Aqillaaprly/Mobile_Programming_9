@@ -10,5 +10,6 @@ Future<void> main() async {
   runApp(MaterialApp(
     theme: ThemeData.dark(),
     home: TakePictureScreen(camera: firstCamera),
+    debugShowCheckedModeBanner: false,
   ));
 }
